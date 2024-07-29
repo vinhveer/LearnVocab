@@ -22,31 +22,13 @@
         </div>
     </nav>
     <h3 class="container mt-5 mb-5">
-        <div class="display-6">Unit 1</div>
-        <div class="btn btn-primary mt-3 me-2">Import to csv</div>
-        <div class="btn btn-primary mt-3 me-2">Add new words</div>
-        <div class="btn btn-primary mt-3 me-2">Delete section</div>
+        <div class="display-6">Admin</div>
     </h3>
-    <div class="container">
-        <div class="row">
-            <a class="col-md-6">
-                <div class="card mb-3">
-                    <div class="card-body">
-                        <h5 class="card-title">Random vocabulary</h5>
-                        <p class="card-text">Expand your vocabulary with randomly generated words, including
-                            definitions,
-                            examples, and pronunciation.</p>
-                        <div class="mt-5">
-                            <button class="btn btn-primary">See details</button>
-                            <button class="btn btn-primary ms-2">Edit</button>
-                            <button class="btn btn-primary ms-2">Delete</button>
-                        </div>
-                    </div>
-                </div>
-            </a>
-        </div>
-    </div>
-
+    <form class="container">
+        <p>Enter your password to continue</p>
+        <input type="password" class="form-control">
+        <button type="submit" class="btn btn-primary mt-3">Continue</button>
+    </form>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
         integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
         crossorigin="anonymous"></script>
