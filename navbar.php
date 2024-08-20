@@ -20,13 +20,13 @@
             </a>
             <div class="dropdown me-3">
                 <button class="btn btn-outline-secondary dropdown-toggle" type="button" id="themeDropdown" data-bs-toggle="dropdown"
-                    aria-expanded="false">
+                    aria-expanded="true">
                     <i class="bi bi-moon-stars-fill"></i>
                 </button>
                 <ul class="dropdown-menu" aria-labelledby="themeDropdown">
-                    <li><a class="dropdown-item" href="#" id="lightMode"><i class="bi bi-sun-fill"></i> Light Mode</a>
+                    <li><a class="dropdown-item" id="lightMode"><i class="bi bi-sun-fill"></i> Light Mode</a>
                     </li>
-                    <li><a class="dropdown-item" href="#" id="darkMode"><i class="bi bi-moon-fill"></i> Dark Mode</a>
+                    <li><a class="dropdown-item" id="darkMode"><i class="bi bi-moon-fill"></i> Dark Mode</a>
                     </li>
                 </ul>
             </div>
